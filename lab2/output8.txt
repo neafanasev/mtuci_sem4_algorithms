@@ -1,0 +1,56 @@
+}    }
+        std::cout << "\n";
+        }
+            }
+                std::cout << field[row][column];
+            } else {
+                std::cout << "*";
+            if (field[row][column] == mineLabel) {
+            }
+                std::cout << " ";
+            if (column > 1) {
+        for (size_t column = 1; column <= columns; ++column) {
+    for (size_t row = 1; row <= rows; ++row) {
+
+    }
+        }
+            }
+                ++cell;
+            if (cell != mineLabel) {
+            auto& cell = field[row + shift.x][column + shift.y];
+        for (auto shift : SHIFTS) {
+
+        field[row][column] = mineLabel;
+
+        std::cin >> row >> column;
+        int row, column;
+    for (size_t index = 0; index != mines; ++index) {
+
+    std::vector<std::vector<int>> field(rows + 2, std::vector<int>(columns + 2));
+
+    const int mineLabel = -1;
+
+    std::cin >> rows >> columns >> mines;
+    size_t mines;
+    size_t columns;
+    size_t rows;
+int main() {
+
+};
+    { 0, -1},
+    { 1, -1},
+    { 1,  0},
+    { 1,  1},
+    { 0,  1},
+    {-1,  1},
+    {-1,  0},
+    {-1, -1},
+const std::vector<Shift> SHIFTS = {
+
+};
+    int y = 0;
+    int x = 0;
+struct Shift {
+
+#include <vector>
+#include <iostream>
